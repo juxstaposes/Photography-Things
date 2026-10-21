@@ -1,0 +1,10 @@
+/* page layout for date */
+*{box-sizing:border-box}
+body{margin:0;background:var(--page-bg);color:var(--ink);font-family:Poppins,sans-serif;line-height:1.5}
+.date-bar{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:.6rem;padding:.7rem 1rem;background:var(--page-bg);border-bottom:1px solid var(--line)}
+.back-link,.sub-link{display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border:1px solid var(--line);border-radius:999px;background:var(--card-bg);color:var(--ink);font-size:.9rem;text-decoration:none}
+.back-link:hover,.sub-link:hover{border-color:var(--accent);color:var(--accent)}
+.date-title{margin:2rem 1rem 1.5rem;text-align:center;text-transform:uppercase;font:400 clamp(2.2rem,9vw,4.2rem)/1.05 Gloock,Georgia,serif}
+.art-scroll{display:flex;flex-direction:column;gap:3rem;max-width:760px;margin:0 auto;padding:0 1rem 7rem}
+.sub-main{display:grid;place-items:center;min-height:70vh;text-align:center}
+.sub-main h1{margin:0;font:400 clamp(2rem,8vw,3.6rem)/1.1 Gloock,Georgia,serif}
